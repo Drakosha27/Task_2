@@ -1,0 +1,133 @@
+
+body { margin: 0; }
+
+.topbar{
+  background: #7287c0;   
+  color: #ffffff;         
+  text-align: center;     
+  padding: 32px 10px;     
+}
+.topbar h1{
+  margin: 0;              
+  font-size: 28px;      
+  font-weight: 700;      
+}
+
+.wrap{
+  max-width:900px;
+  margin:22px auto 60px;
+  padding:0 18px;
+}
+
+
+.portrait{
+  display: block;          
+  margin: 8px auto 14px;   
+  width: 700px;            
+  max-width: 90%;          
+  height: auto;            
+  float: none;             
+  border-radius: 8px;      
+}
+
+
+.intro{
+  text-align: center;
+}
+
+
+.lead{
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.wrap{
+  max-width: 900px;
+  margin: 22px auto 60px;
+  padding: 0 18px;
+}
+
+
+.card{
+  background: #ffffff;               
+  border: 1px solid #e3e7eb;      
+  border-radius: 6px;                
+  padding: 22px 22px 18px;           
+  margin-bottom: 18px;              
+}
+
+
+.card.about .portrait{
+  display: block;
+  width: 240px;                      
+  max-width: 100%;
+  margin: 6px auto 12px;             
+  border-radius: 8px;
+  height: auto;
+}
+.card.about h2{ text-align: center; margin: 6px 0 10px; }
+.card.about .lead{
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+
+.card.achievements h3{ margin: 0 0 10px; }
+.card.achievements .bullets{
+  margin: 0;
+  padding-left: 20px;                
+}
+.card.achievements .bullets li{
+  margin: 6px 0;
+  line-height: 1.6;
+}
+
+
+
+html, body {
+  margin: 0;
+  background: #d3deff;   
+}
+
+
+
+.navbar{
+  text-align:center;
+  
+  
+  border-top: 14px solid transparent;
+  border-bottom: 1px solid #d5defd;
+}
+
+
+.navbar a{
+  display: inline-block;
+  margin: 0 10px;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #7287c0;
+  font-weight: 600;
+  border-radius: 8px;                 
+  transition: background .15s ease, color .15s ease, transform .08s ease;
+  cursor: pointer;
+}
+
+
+.navbar a:hover,
+.navbar a:focus-visible{
+  background: #7287c0;                
+  color: #fff;                       
+  outline: none;                      
+  transform: translateY(-1px);    
+}
+
+
+.navbar a.active{
+  background: #7287c0;
+  color: #fff;
+}
+
